@@ -1,4 +1,4 @@
-#TASK-1(A)
+#TASK-1(A)-DECOMPOSING BINARY STRING
 import math
 n = int(input())
 b = input()
