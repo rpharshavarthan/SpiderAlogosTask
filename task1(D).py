@@ -1,4 +1,4 @@
-#TASk-1(D)
+#TASk-1(D)-DETERMINE FINAL RATING
 
 n, r, x, y = map(int, input().split())
 newr = r
