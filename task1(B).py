@@ -1,4 +1,4 @@
-#TASK-1(B)
+#TASK-1(B)-FINDING DEGREE OF SYMMETRY OF A STRING
 import math
 n = int(input())
 s = input()
