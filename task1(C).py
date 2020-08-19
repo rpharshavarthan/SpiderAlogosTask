@@ -15,7 +15,7 @@ for i in range(4):
     l = d[ans]         #those two numbers are stored in dictionary as the value of ans
     i1 = b.index(l[0])    #from here swapping happens in list b
     f = b.pop(x)          # those two numbers(for example 7 and 8) are stored at x and y and the numbers at x and y (for example 10 and 43)
-    b.insert(x, l[0])     # are stored at index(7) and index(8)
+    b.insert(x, l[0])     # are stored at b.index(7) and b.index(8)
     b[i1] = f
     i2 = b.index(l[1])
     s = b.pop(y)
