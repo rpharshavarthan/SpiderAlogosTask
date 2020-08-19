@@ -6,7 +6,7 @@ n = int(input())
 b = input()
 if b == "0" or math.log2(int(b, 2)) - int(math.log2(int(b, 2))) == 0:       #checks if decimal value of bimary string is 2^n
     print("-1")
-elif math.log2(int(b, 2) + 1) - int(math.log2(int(b, 2) + 1)) == 0: #checks if decimal value of binary string is ((2^n)-1)
+elif math.log2(int(b, 2) + 1) - int(math.log2(int(b, 2) + 1)) == 0:         #checks if decimal value of binary string is ((2^n)-1)
     print("-1")
 else:
     s1 = bin(int(b, 2)-1)
