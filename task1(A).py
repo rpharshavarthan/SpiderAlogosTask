@@ -8,8 +8,8 @@ if b == "0" or math.log2(int(b, 2)) - int(math.log2(int(b, 2))) == 0:       #che
     print("-1")
 elif math.log2(int(b, 2) + 1) - int(math.log2(int(b, 2) + 1)) == 0:         #checks if decimal value of binary string is ((2^n)-1)
     print("-1")
-else:
-    s1 = bin(int(b, 2)-1)
+else:                                                                       #it prints preceding and succeeding binary numbers of b
+    s1 = bin(int(b, 2)-1)                                                   
     s2 = bin(int(b, 2)+1)
     print(s1[2:], s2[2:])
 
